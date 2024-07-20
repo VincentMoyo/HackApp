@@ -14,11 +14,12 @@
 		78D71F612C4BB28F00FCA58F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78D71F602C4BB28F00FCA58F /* Assets.xcassets */; };
 		78D71F642C4BB28F00FCA58F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78D71F622C4BB28F00FCA58F /* LaunchScreen.storyboard */; };
 		78D71F702C4BBA0D00FCA58F /* CardLinkingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D71F6E2C4BBA0D00FCA58F /* CardLinkingViewController.swift */; };
-		78D71F712C4BBA0D00FCA58F /* CardLinkingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78D71F6F2C4BBA0D00FCA58F /* CardLinkingViewController.xib */; };
 		78D71F742C4BBEA900FCA58F /* CardLinkInputView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78D71F732C4BBEA900FCA58F /* CardLinkInputView.xib */; };
 		D889A6F72C4BB3C7005C1E66 /* APIHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D889A6F62C4BB3C7005C1E66 /* APIHandler.swift */; };
 		D889A6F92C4BB3E2005C1E66 /* serviceErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D889A6F82C4BB3E2005C1E66 /* serviceErrors.swift */; };
 		D889A6FC2C4BB46B005C1E66 /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D889A6FB2C4BB46B005C1E66 /* constants.swift */; };
+		D889A6FE2C4BD454005C1E66 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D889A6FD2C4BD454005C1E66 /* Storyboard.storyboard */; };
+		D889A7022C4BDC20005C1E66 /* ObjectModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D889A7012C4BDC20005C1E66 /* ObjectModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,11 +32,12 @@
 		78D71F632C4BB28F00FCA58F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		78D71F652C4BB28F00FCA58F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78D71F6E2C4BBA0D00FCA58F /* CardLinkingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardLinkingViewController.swift; sourceTree = "<group>"; };
-		78D71F6F2C4BBA0D00FCA58F /* CardLinkingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardLinkingViewController.xib; sourceTree = "<group>"; };
 		78D71F732C4BBEA900FCA58F /* CardLinkInputView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardLinkInputView.xib; sourceTree = "<group>"; };
 		D889A6F62C4BB3C7005C1E66 /* APIHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHandler.swift; sourceTree = "<group>"; };
 		D889A6F82C4BB3E2005C1E66 /* serviceErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = serviceErrors.swift; sourceTree = "<group>"; };
 		D889A6FB2C4BB46B005C1E66 /* constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
+		D889A6FD2C4BD454005C1E66 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		D889A7012C4BDC20005C1E66 /* ObjectModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ObjectModel.swift; path = HackApp/Screens/ObjectModel.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				78D71F6E2C4BBA0D00FCA58F /* CardLinkingViewController.swift */,
-				78D71F6F2C4BBA0D00FCA58F /* CardLinkingViewController.xib */,
+				D889A6FD2C4BD454005C1E66 /* Storyboard.storyboard */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -104,6 +106,7 @@
 		78D71F6D2C4BB66900FCA58F /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				D889A7012C4BDC20005C1E66 /* ObjectModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -161,7 +164,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
-				LastUpgradeCheck = 1420;
+				LastUpgradeCheck = 1520;
 				TargetAttributes = {
 					78D71F532C4BB28C00FCA58F = {
 						CreatedOnToolsVersion = 14.2;
@@ -195,7 +198,7 @@
 				78D71F612C4BB28F00FCA58F /* Assets.xcassets in Resources */,
 				78D71F742C4BBEA900FCA58F /* CardLinkInputView.xib in Resources */,
 				78D71F5F2C4BB28C00FCA58F /* Main.storyboard in Resources */,
-				78D71F712C4BBA0D00FCA58F /* CardLinkingViewController.xib in Resources */,
+				D889A6FE2C4BD454005C1E66 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +213,7 @@
 				D889A6F92C4BB3E2005C1E66 /* serviceErrors.swift in Sources */,
 				78D71F702C4BBA0D00FCA58F /* CardLinkingViewController.swift in Sources */,
 				78D71F582C4BB28C00FCA58F /* AppDelegate.swift in Sources */,
+				D889A7022C4BDC20005C1E66 /* ObjectModel.swift in Sources */,
 				78D71F5A2C4BB28C00FCA58F /* SceneDelegate.swift in Sources */,
 				D889A6F72C4BB3C7005C1E66 /* APIHandler.swift in Sources */,
 				D889A6FC2C4BB46B005C1E66 /* constants.swift in Sources */,
@@ -274,6 +278,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -334,6 +339,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
