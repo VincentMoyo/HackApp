@@ -62,8 +62,10 @@
 		78D71F562C4BB28C00FCA58F /* HackApp */ = {
 			isa = PBXGroup;
 			children = (
-				D889A6FA2C4BB431005C1E66 /* Utils */,
+				78D71F6C2C4BB63A00FCA58F /* Screens */,
+				78D71F6B2C4BB62100FCA58F /* Repo */,
 				D889A6F52C4BB3AA005C1E66 /* serviceLayer */,
+				D889A6FA2C4BB431005C1E66 /* Utils */,
 				78D71F572C4BB28C00FCA58F /* AppDelegate.swift */,
 				78D71F592C4BB28C00FCA58F /* SceneDelegate.swift */,
 				78D71F5B2C4BB28C00FCA58F /* ViewController.swift */,
@@ -73,6 +75,28 @@
 				78D71F652C4BB28F00FCA58F /* Info.plist */,
 			);
 			path = HackApp;
+			sourceTree = "<group>";
+		};
+		78D71F6B2C4BB62100FCA58F /* Repo */ = {
+			isa = PBXGroup;
+			children = (
+				78D71F6D2C4BB66900FCA58F /* Models */,
+			);
+			path = Repo;
+			sourceTree = "<group>";
+		};
+		78D71F6C2C4BB63A00FCA58F /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		78D71F6D2C4BB66900FCA58F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		D889A6F52C4BB3AA005C1E66 /* serviceLayer */ = {
