@@ -13,6 +13,9 @@
 		78D71F5F2C4BB28C00FCA58F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78D71F5D2C4BB28C00FCA58F /* Main.storyboard */; };
 		78D71F612C4BB28F00FCA58F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78D71F602C4BB28F00FCA58F /* Assets.xcassets */; };
 		78D71F642C4BB28F00FCA58F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78D71F622C4BB28F00FCA58F /* LaunchScreen.storyboard */; };
+		78D71F702C4BBA0D00FCA58F /* CardLinkingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78D71F6E2C4BBA0D00FCA58F /* CardLinkingViewController.swift */; };
+		78D71F712C4BBA0D00FCA58F /* CardLinkingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78D71F6F2C4BBA0D00FCA58F /* CardLinkingViewController.xib */; };
+		78D71F742C4BBEA900FCA58F /* CardLinkInputView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78D71F732C4BBEA900FCA58F /* CardLinkInputView.xib */; };
 		D889A6F72C4BB3C7005C1E66 /* APIHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D889A6F62C4BB3C7005C1E66 /* APIHandler.swift */; };
 		D889A6F92C4BB3E2005C1E66 /* serviceErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D889A6F82C4BB3E2005C1E66 /* serviceErrors.swift */; };
 		D889A6FC2C4BB46B005C1E66 /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D889A6FB2C4BB46B005C1E66 /* constants.swift */; };
@@ -27,6 +30,9 @@
 		78D71F602C4BB28F00FCA58F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78D71F632C4BB28F00FCA58F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		78D71F652C4BB28F00FCA58F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78D71F6E2C4BBA0D00FCA58F /* CardLinkingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardLinkingViewController.swift; sourceTree = "<group>"; };
+		78D71F6F2C4BBA0D00FCA58F /* CardLinkingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardLinkingViewController.xib; sourceTree = "<group>"; };
+		78D71F732C4BBEA900FCA58F /* CardLinkInputView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardLinkInputView.xib; sourceTree = "<group>"; };
 		D889A6F62C4BB3C7005C1E66 /* APIHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHandler.swift; sourceTree = "<group>"; };
 		D889A6F82C4BB3E2005C1E66 /* serviceErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = serviceErrors.swift; sourceTree = "<group>"; };
 		D889A6FB2C4BB46B005C1E66 /* constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
@@ -62,6 +68,7 @@
 		78D71F562C4BB28C00FCA58F /* HackApp */ = {
 			isa = PBXGroup;
 			children = (
+				78D71F722C4BBAD700FCA58F /* Components */,
 				78D71F6C2C4BB63A00FCA58F /* Screens */,
 				78D71F6B2C4BB62100FCA58F /* Repo */,
 				D889A6F52C4BB3AA005C1E66 /* serviceLayer */,
@@ -88,6 +95,8 @@
 		78D71F6C2C4BB63A00FCA58F /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				78D71F6E2C4BBA0D00FCA58F /* CardLinkingViewController.swift */,
+				78D71F6F2C4BBA0D00FCA58F /* CardLinkingViewController.xib */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -97,6 +106,14 @@
 			children = (
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		78D71F722C4BBAD700FCA58F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				78D71F732C4BBEA900FCA58F /* CardLinkInputView.xib */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 		D889A6F52C4BB3AA005C1E66 /* serviceLayer */ = {
@@ -176,7 +193,9 @@
 			files = (
 				78D71F642C4BB28F00FCA58F /* LaunchScreen.storyboard in Resources */,
 				78D71F612C4BB28F00FCA58F /* Assets.xcassets in Resources */,
+				78D71F742C4BBEA900FCA58F /* CardLinkInputView.xib in Resources */,
 				78D71F5F2C4BB28C00FCA58F /* Main.storyboard in Resources */,
+				78D71F712C4BBA0D00FCA58F /* CardLinkingViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,6 +208,7 @@
 			files = (
 				78D71F5C2C4BB28C00FCA58F /* ViewController.swift in Sources */,
 				D889A6F92C4BB3E2005C1E66 /* serviceErrors.swift in Sources */,
+				78D71F702C4BBA0D00FCA58F /* CardLinkingViewController.swift in Sources */,
 				78D71F582C4BB28C00FCA58F /* AppDelegate.swift in Sources */,
 				78D71F5A2C4BB28C00FCA58F /* SceneDelegate.swift in Sources */,
 				D889A6F72C4BB3C7005C1E66 /* APIHandler.swift in Sources */,
