@@ -15,7 +15,7 @@ class CardLinkingViewController: UIViewController {
     @IBOutlet weak var monthDate: UITextField!
     @IBOutlet weak var yearDate: UITextField!
     @IBOutlet weak var cvvNumber: UITextField!
-    @IBOutlet weak var accountType: UIButton!
+    @IBOutlet weak var accountType: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -40,7 +40,7 @@ class CardLinkingViewController: UIViewController {
         let cardID = UUID().uuidString
         
         // Create card details
-        let cardDetails: [String: Any] = [
+        let _: [String: Any] = [
             "cardName": cardName,
             "cardNumber": cardNumber,
             "expiryMonth": month,
