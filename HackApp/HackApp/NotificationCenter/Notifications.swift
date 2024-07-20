@@ -40,4 +40,3 @@ class WebHookHandlerViewController: UIViewController {
 //func urlSession(_ session: URLSession, dataTask: URLSessionDataTask, didReceive data: Data) {
 //    // Handle incoming data from the web hook
 //    handleWebHook(data: data)
-}
